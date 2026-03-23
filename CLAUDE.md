@@ -1,7 +1,7 @@
 # ScoreLSA — AI-Powered LSA Lead Scoring SaaS
 
 ## Overview
-ScoreLSA is a SaaS product that uses AI to automatically score and disposition Google Local Services Ads (LSA) leads. It analyzes call recordings, transcripts, messages, and emails to determine lead quality, then auto-updates lead status (BOOKED/ACTIVE/DECLINED) in Google Ads.
+ScoreLSA is a SaaS product that uses AI to score Google Local Services Ads (LSA) leads and recommend dispositions. It analyzes call recordings, transcripts, messages, and emails to determine lead quality, then provides clear recommendations (BOOK/FOLLOW UP/DECLINE) for the customer to action.
 
 ## Brand
 - **Name**: ScoreLSA
