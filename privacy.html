@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — ScoreLSA</title>
+    <meta name="description" content="ScoreLSA Privacy Policy. Learn how we collect, use, and protect your data.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #334155;
+            background: #ffffff;
+            line-height: 1.7;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ── Nav ─────────────────────────────────────── */
+        nav {
+            background: #0f172a;
+            padding: 0 2rem;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav .nav-inner {
+            max-width: 1100px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: #f59e0b;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 14px;
+            color: #0f172a;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.02em;
+        }
+
+        .logo-text span {
+            color: #f59e0b;
+        }
+
+        nav .nav-links a {
+            color: #94a3b8;
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        nav .nav-links a:hover {
+            color: #ffffff;
+        }
+
+        /* ── Hero / Header ───────────────────────────── */
+        .page-header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            padding: 4rem 2rem 3rem;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            color: #ffffff;
+            font-size: 2.25rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-header .subtitle {
+            color: #94a3b8;
+            font-size: 1rem;
+        }
+
+        /* ── Content ─────────────────────────────────── */
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 2rem 5rem;
+        }
+
+        .content h2 {
+            color: #0f172a;
+            font-size: 1.375rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #f1f5f9;
+            letter-spacing: -0.02em;
+        }
+
+        .content h2 .section-num {
+            color: #f59e0b;
+            margin-right: 0.35rem;
+        }
+
+        .content h3 {
+            color: #1e293b;
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .content p {
+            margin-bottom: 1rem;
+        }
+
+        .content ul, .content ol {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        .content li {
+            margin-bottom: 0.4rem;
+        }
+
+        .content a {
+            color: #f59e0b;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+        .effective-date {
+            display: inline-block;
+            background: #fffbeb;
+            border: 1px solid #fde68a;
+            color: #92400e;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding: 0.35rem 0.85rem;
+            border-radius: 6px;
+            margin-bottom: 2rem;
+        }
+
+        .contact-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            margin-top: 1rem;
+        }
+
+        .contact-box p {
+            margin-bottom: 0.35rem;
+        }
+
+        /* ── Footer ──────────────────────────────────── */
+        footer {
+            background: #0f172a;
+            color: #94a3b8;
+            padding: 3rem 2rem;
+        }
+
+        .footer-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 2rem;
+        }
+
+        .footer-brand .logo-text {
+            font-size: 1.1rem;
+        }
+
+        .footer-brand p {
+            margin-top: 0.5rem;
+            font-size: 0.85rem;
+            max-width: 280px;
+            line-height: 1.5;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 3rem;
+        }
+
+        .footer-col h4 {
+            color: #ffffff;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-col a {
+            display: block;
+            color: #94a3b8;
+            text-decoration: none;
+            font-size: 0.875rem;
+            margin-bottom: 0.4rem;
+            transition: color 0.2s;
+        }
+
+        .footer-col a:hover {
+            color: #f59e0b;
+        }
+
+        .footer-bottom {
+            max-width: 1100px;
+            margin: 2rem auto 0;
+            padding-top: 1.5rem;
+            border-top: 1px solid #1e293b;
+            font-size: 0.8rem;
+            text-align: center;
+        }
+
+        /* ── Responsive ──────────────────────────────── */
+        @media (max-width: 640px) {
+            .page-header h1 { font-size: 1.75rem; }
+            .content { padding: 2rem 1.25rem 3rem; }
+            .footer-links { flex-direction: column; gap: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ── Navigation ──────────────────────────────────── -->
+<nav>
+    <div class="nav-inner">
+        <a href="/" class="logo">
+            <div class="logo-icon">S</div>
+            <div class="logo-text">Score<span>LSA</span></div>
+        </a>
+        <div class="nav-links">
+            <a href="/terms.html">Terms of Service</a>
+        </div>
+    </div>
+</nav>
+
+<!-- ── Header ──────────────────────────────────────── -->
+<div class="page-header">
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">How ScoreLSA collects, uses, and protects your information</p>
+</div>
+
+<!-- ── Content ─────────────────────────────────────── -->
+<main class="content">
+    <div class="effective-date">Last Updated: March 2026</div>
+
+    <p>
+        This Privacy Policy describes how Dayta Analytics LLC ("we," "us," or "our"), operating as ScoreLSA,
+        collects, uses, and shares information when you use the ScoreLSA platform and related services
+        (collectively, the "Service"). By using ScoreLSA, you agree to the practices described in this policy.
+    </p>
+
+    <!-- 1 ──────────────────────────────────────────── -->
+    <h2><span class="section-num">1.</span> Information We Collect</h2>
+
+    <h3>Account Information</h3>
+    <p>When you create an account, we collect your name, email address, company name, and billing information necessary to provide the Service.</p>
+
+    <h3>Google Ads Account Data</h3>
+    <p>
+        With your authorization, we access data from your Google Ads account, including:
+    </p>
+    <ul>
+        <li>Local Services Ads (LSA) lead information, including lead type, status, and contact details</li>
+        <li>Call recordings and transcripts associated with LSA leads</li>
+        <li>Messages and emails received through LSA leads</li>
+        <li>Lead disposition and booking status</li>
+    </ul>
+
+    <h3>Usage Data</h3>
+    <p>
+        We automatically collect information about how you interact with the Service, including pages visited,
+        features used, timestamps, browser type, device information, and IP address.
+    </p>
+
+    <!-- 2 ──────────────────────────────────────────── -->
+    <h2><span class="section-num">2.</span> How We Use Your Information</h2>
+    <p>We use the information we collect to:</p>
+    <ul>
+        <li><strong>Provide the Service</strong> — Analyze your LSA leads using AI, generate quality scores, and update lead dispositions in your Google Ads account</li>
+        <li><strong>Improve our AI models</strong> — We may use anonymized and aggregated data to improve our scoring algorithms. Individual lead data or personally identifiable information is never used in model training without explicit consent.</li>
+        <li><strong>Communicate with you</strong> — Send account-related notifications, respond to support requests, and provide service updates</li>
+        <li><strong>Maintain security</strong> — Detect and prevent fraud, abuse, and unauthorized access</li>
+        <li><strong>Comply with legal obligations</strong> — Meet applicable legal and regulatory requirements</li>
+    </ul>
+
+    <!-- 3 ──────────────────────────────────────────── -->
+    <h2><span class="section-num">3.</span> Google Ads API Data</h2>
+    <p>
+        ScoreLSA accesses your Google Ads data solely to provide lead scoring, analysis, and disposition services
+        as described in our Service. Specifically:
+    </p>
+    <ul>
+        <li>We <strong>do not sell</strong> your Google Ads data to any third party.</li>
+        <li>We <strong>do not share</strong> your Google Ads data with third parties except as necessary to provide the Service (e.g., sending call transcripts to our AI provider for scoring).</li>
+        <li>We <strong>do not use</strong> your Google Ads data for advertising, marketing, or any purpose other than providing and improving the ScoreLSA service.</li>
+        <li>We <strong>do not transfer</strong> your Google Ads data to third-party tools or services unrelated to the Service.</li>
+    </ul>
+    <p>
+        Our use and transfer to any other app of information received from Google APIs adheres to the
+        <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>,
+        including the Limited Use requirements.
+    </p>
+
+    <!-- 4 ──────────────────────────────────────────── -->
+    <h2><span class="section-num">4.</span> Data Storage &amp; Security</h2>
+    <p>
+        We take the security of your data seriously and implement industry-standard measures to protect it:
+    </p>
+    <ul>
+        <li><strong>Infrastructure</strong> — All data is stored on Google Cloud Platform (GCP) in the United States</li>
+        <li><strong>Encryption at rest</strong> — Data is encrypted using AES-256 encryption</li>
+        <li><strong>Encryption in transit</strong> — All data transmitted between your browser and our servers is encrypted via TLS 1.2 or higher</li>
+        <li><strong>Access controls</strong> — Role-based access controls limit data access to authorized personnel only</li>
+        <li><strong>Audit logging</strong> — All access to customer data is logged and monitored</li>
+        <li><strong>OAuth tokens</strong> — Your Google Ads OAuth tokens are stored securely and encrypted. We never store your Google account password.</li>
+    </ul>
+    <p>
+        While we implement commercially reasonable security measures, no method of electronic transmission or
+        storage is 100% secure. We cannot guarantee absolute security.
+    </p>
+
+    <!-- 5 ──────────────────────────────────────────── -->
+    <h2><span class="section-num">5.</span> Data Retention</h2>
+    <ul>
+        <li><strong>Active accounts</strong> — Lead data and scoring results are retained for the duration of your subscription to provide historical reporting and analytics.</li>
+        <li><strong>After cancellation</strong> — Lead data is retained for 30 days after subscription cancellation to allow for reactivation or data export.</li>
+        <li><strong>Account deletion</strong> — Upon request for account deletion, all associated data (including leads, scores, account information, and Google Ads OAuth tokens) is permanently and irreversibly removed from our systems within 90 days.</li>
+        <li><strong>Backups</strong> — Encrypted backups are retained for up to 90 days for disaster recovery and are subject to the same deletion timelines.</li>
+    </ul>
+
+    <!-- 6 ──────────────────────────────────────────── -->
+    <h2><span class="section-num">6.</span> Third-Party Services</h2>
+    <p>We use the following third-party services to operate ScoreLSA:</p>
+    <ul>
+        <li><strong>OpenAI</strong> — We send lead data (call transcripts, messages, and emails) to OpenAI's API for AI-powered analysis and scoring. Data sent to OpenAI via the API is <strong>not used to train OpenAI's models</strong> per their data usage policies.</li>
+        <li><strong>Stripe</strong> — Handles payment processing. We do not store your full credit card information; Stripe manages this in their PCI-compliant environment.</li>
+        <li><strong>Google Cloud Platform</strong> — Provides infrastructure, data storage, and computing services.</li>
+        <li><strong>Google Ads API</strong> — Used to read lead data and update lead dispositions in your Google Ads account.</li>
+    </ul>
+    <p>
+        Each third-party service operates under its own privacy policy and data protection practices. We
+        encourage you to review their policies.
+    </p>
+
+    <!-- 7 ──────────────────────────────────────────── -->
+    <h2><span class="section-num">7.</span> Your Rights</h2>
+    <p>You have the following rights regarding your data:</p>
+    <ul>
+        <li><strong>Access</strong> — Request a copy of the personal data we hold about you</li>
+        <li><strong>Correction</strong> — Request correction of inaccurate or incomplete information</li>
+        <li><strong>Deletion</strong> — Request deletion of your personal data and account</li>
+        <li><strong>Data export</strong> — Export your lead data and scoring history in a machine-readable format</li>
+        <li><strong>Revoke access</strong> — Revoke ScoreLSA's access to your Google Ads account at any time through your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions</a></li>
+        <li><strong>Opt out</strong> — Opt out of non-essential communications</li>
+    </ul>
+    <p>
+        To exercise any of these rights, contact us at
+        <a href="mailto:support@scorelsa.com">support@scorelsa.com</a>. We will respond to requests within
+        30 days.
+    </p>
+
+    <!-- 8 ──────────────────────────────────────────── -->
+    <h2><span class="section-num">8.</span> California &amp; European Privacy Rights</h2>
+
+    <h3>California Residents (CCPA/CPRA)</h3>
+    <p>If you are a California resident, you have the right to:</p>
+    <ul>
+        <li>Know what personal information we collect and how it is used</li>
+        <li>Request deletion of your personal information</li>
+        <li>Opt out of the sale or sharing of personal information (note: we do not sell personal information)</li>
+        <li>Non-discrimination for exercising your privacy rights</li>
+    </ul>
+    <p>To exercise your California privacy rights, contact <a href="mailto:support@scorelsa.com">support@scorelsa.com</a>.</p>
+
+    <h3>European Union Residents (GDPR)</h3>
+    <p>If you are an EU/EEA resident, you have additional rights under the General Data Protection Regulation, including:</p>
+    <ul>
+        <li>The right to data portability</li>
+        <li>The right to restrict processing</li>
+        <li>The right to object to processing</li>
+        <li>The right to lodge a complaint with your local data protection authority</li>
+    </ul>
+    <p>
+        Our legal basis for processing personal data is the performance of our contract with you (providing the Service)
+        and our legitimate business interests (improving and securing the Service).
+    </p>
+
+    <!-- 9 ──────────────────────────────────────────── -->
+    <h2><span class="section-num">9.</span> Changes to This Policy</h2>
+    <p>
+        We may update this Privacy Policy from time to time. If we make material changes, we will notify you
+        by email at the address associated with your account or by posting a prominent notice on the Service
+        at least 30 days before the changes take effect.
+    </p>
+    <p>
+        Your continued use of ScoreLSA after the effective date of any changes constitutes your acceptance
+        of the updated policy.
+    </p>
+
+    <!-- 10 ─────────────────────────────────────────── -->
+    <h2><span class="section-num">10.</span> Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or our data practices, please contact us:</p>
+    <div class="contact-box">
+        <p><strong>Dayta Analytics LLC</strong></p>
+        <p>Bedford, TX</p>
+        <p>Email: <a href="mailto:support@scorelsa.com">support@scorelsa.com</a></p>
+    </div>
+</main>
+
+<!-- ── Footer ──────────────────────────────────────── -->
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <div class="logo-text">Score<span style="color:#f59e0b">LSA</span></div>
+            <p>AI-powered lead scoring for Google Local Services Ads. Score every lead. Book more jobs.</p>
+        </div>
+        <div class="footer-links">
+            <div class="footer-col">
+                <h4>Product</h4>
+                <a href="/">Home</a>
+                <a href="/#pricing">Pricing</a>
+                <a href="/#features">Features</a>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="/privacy.html">Privacy Policy</a>
+                <a href="/terms.html">Terms of Service</a>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <a href="mailto:support@scorelsa.com">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2026 Dayta Analytics LLC. All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>
